@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #001011;
+    --secondary-color: #FFA400;
+    --tertiary-color: #E5E5E5;
+    --color-4: #6d7275;
+    --color-5: #119da4;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--tertiary-color))
+}
+
