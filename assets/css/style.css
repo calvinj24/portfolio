@@ -18,3 +18,110 @@ body {
     background-color: var(--tertiary-color))
 }
 
+/* Header Style Start */
+header {
+    padding: 20px 30px;
+    background-image: url("../images/madison_wi.webp");
+    background-attachment: fixed;
+    background-position: 50%;
+    position: sticky;
+    color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+header nav {
+    margin: 8px 0px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*header nav ul li {
+    display: inline;
+}*/
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+    padding: 10px 20px;
+    font-size: 1.55vw;
+    font-weight: lighter;
+}
+/* Header Style End */
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/madison_wi.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+} 
+
+.hero h2 {
+    font-size: 30px;
+    color: var(--tertiary-color);
+    padding: 5px 25px;
+    
+}
+
+/* Hero Style End */
+
+section {
+    text-align: center;
+}
+
+/* About Me Style Start */
+
+.about-me-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-me-img {
+    flex: 1 12%;
+    max-width: 200px;
+    height: auto;
+}
+
+.about-me-img img {
+    max-width: 100%;
+}
+
+.bio {
+    flex: 2 70%;
+}
+
+/* About Me Style End */
+
+/* My Work Style Start */
+
+/* My Work Style End */
+
+/* Contact Me Style Start */
+
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Contact Me Style End */
