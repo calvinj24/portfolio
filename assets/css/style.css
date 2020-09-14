@@ -141,6 +141,7 @@ header nav ul li a:hover {
 
 .bio {
     flex: 2 60%;
+    padding: 10px 10px;
 }
 
 /* About Me Style End */
@@ -172,6 +173,8 @@ header nav ul li a:hover {
     align-items: flex-end;
     min-width: 100px;
     min-height: 100px;
+    text-decoration: none;
+    color: white;
 }
 
 .project:hover {
@@ -203,8 +206,6 @@ header nav ul li a:hover {
     justify-content: space-around;
 }
 
-
-
 .contact-info h3, .my-links h3{
     margin-bottom: 10px;
     padding-bottom: 5px;
@@ -213,3 +214,21 @@ header nav ul li a:hover {
 }
 
 /* Contact Me Style End */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 768px) {
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+
+}
