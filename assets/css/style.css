@@ -223,16 +223,81 @@ header nav ul li a:hover {
 
 @media screen and (max-width: 980px) {
 
+    header h1 {
+        font-size: 32px;
+    }
+
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
 @media screen and (max-width: 768px) {
 
+    .about-me, .my-work, .contact{
+        flex-flow: column;
+    }
+
+    .about-me h2, .my-work h2, .contact h2 {
+        text-align: center;
+        border-bottom: 5px solid var(--color-5);
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .about-me-wrapper, .projects, .contact-wrapper {
+        width: 80%;
+        margin: 0 auto;
+        border: none;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px) {
+
+    header {
+        text-align: center;
+        flex-flow: column;
+    }
+
+    .hero {
+        height: 100px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    header nav ul li a {
+        font-size: 12px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .about-me-container {
+        display: inline;
+        text-align: center;
+    }
+
+    .about-me-img {
+        margin: 0 auto 0 auto;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .contact-wrapper {
+        flex-flow: column;
+        text-align: center;
+    }
 
 }
